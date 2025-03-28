@@ -18,6 +18,7 @@ sudo ./setup-nfs-client.sh
 ===================================
 
 ✅ Final Verification
+
 🔹 Check NFS Server IP (Run on Server):
 
 hostname -I
