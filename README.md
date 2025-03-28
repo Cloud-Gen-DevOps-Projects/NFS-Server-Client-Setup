@@ -24,12 +24,14 @@ hostname -I
 exportfs -v
 
 ===================================================
+
 🔹 Check NFS Mount on Client (Run on Client):
 
 df -h | grep nfs
 ls -l /mnt/nfs-share/
 
 ===================================================
+
 🔹 Test File Creation on NFS Share (Run on Client):
 
 
