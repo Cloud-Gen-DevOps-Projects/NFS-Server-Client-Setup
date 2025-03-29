@@ -22,6 +22,7 @@ sudo ./setup-nfs-client.sh
 🔹 Check NFS Server IP (Run on Server):
 
 hostname -I
+
 exportfs -v
 
 ===================================================
@@ -29,6 +30,7 @@ exportfs -v
 🔹 Check NFS Mount on Client (Run on Client):
 
 df -h | grep nfs
+
 ls -l /mnt/nfs-share/
 
 ===================================================
@@ -37,4 +39,5 @@ ls -l /mnt/nfs-share/
 
 
 touch /mnt/nfs-share/test-file.txt
+
 ls -l /mnt/nfs-share/
